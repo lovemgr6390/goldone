@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "np": "np --no-publish",
+    "postversion": "react-native-version"
   },
   "dependencies": {
     "react": "18.1.0",
@@ -27,5 +29,9 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovemgr6390/goldone.git"
   }
 }
